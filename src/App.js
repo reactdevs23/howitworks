@@ -6,9 +6,9 @@ import PlateImage from "./images/PlateImage";
 function App() {
   const allData = {
     fontFamily: "'Inter', sans-serif",
-    primaryColor: "#fff",
-    secondaryColor: "#fff",
-    background: "#000",
+    primaryColor: "#000",
+
+    background: "#fff",
 
     plates: [
       {
@@ -47,7 +47,7 @@ function App() {
     <div
       style={{
         "--primaryColor": allData.primaryColor,
-        "--secondaryColor": allData.secondaryColor,
+
         fontFamily: allData.fontFamily,
       }}
     >
