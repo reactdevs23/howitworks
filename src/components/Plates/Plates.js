@@ -7,7 +7,7 @@ const Plates = ({ plates }) => {
       {" "}
       {plates.map((el, i) => (
         <div className={styles.plateContainer} key={i}>
-          {el.icon && <img src={el.icon} alt="#" className={styles.icon} />}
+          {el.icon && <div className={styles.icon}>{el.icon}</div>}
           <div className={styles.plate}>{el.plate}</div>
         </div>
       ))}

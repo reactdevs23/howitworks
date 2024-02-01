@@ -22,6 +22,7 @@
 .icon {
   position: absolute;
   top: 40px;
+  max-width: 40px;
 }
 .plate {
   max-width: 350px;

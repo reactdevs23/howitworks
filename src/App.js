@@ -1,18 +1,28 @@
 import MainComponent from "./components/MaiComponent/MainComponent";
-import { icon } from "./images";
+
+import Icon from "./images/Icon";
 import PlateImage from "./images/PlateImage";
 
 function App() {
   const allData = {
     fontFamily: "'Inter', sans-serif",
-    primaryColor: "#000",
+    primaryColor: "#fff",
     secondaryColor: "#fff",
-    background: "#EFF2F3",
+    background: "#000",
 
     plates: [
-      { plate: <PlateImage color="#fff" strokeColor="#4F5D75" />, icon: icon },
-      { plate: <PlateImage color="#fff" strokeColor="#4F5D75" />, icon: icon },
-      { plate: <PlateImage color="#fff" strokeColor="#4F5D75" />, icon: icon },
+      {
+        plate: <PlateImage color="transparent" strokeColor="#4F5D75" />,
+        icon: <Icon color="#2E3B84" />,
+      },
+      {
+        plate: <PlateImage color="transparent" strokeColor="#4F5D75" />,
+        icon: <Icon color="#2E3B84" />,
+      },
+      {
+        plate: <PlateImage color="transparent" strokeColor="#4F5D75" />,
+        icon: <Icon color="#2E3B84" />,
+      },
     ],
 
     howDbtWorks: {
